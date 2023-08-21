@@ -1,7 +1,13 @@
-import { useState } from "react";
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
+import "./index.scss";
 
-function App() {
-  return <></>;
-}
+const App = () => {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
+};
 
 export default App;
